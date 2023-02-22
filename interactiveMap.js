@@ -35,8 +35,8 @@ export default class InteractiveMap {
       this.onClick(coords);
     });
     this.map = new ymaps.Map(this.mapId, {
-      center: [54.81, 36.58],
-      zoom: 12,
+      center: [55.76, 37.64],
+      zoom: 11,
     });
     this.map.events.add('click', (e) => this.onClick(e.get('coords')));
     this.map.geoObjects.add(this.clusterer);
