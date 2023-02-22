@@ -1,4 +1,4 @@
-import InteractiveMap from './interactiveMap.js';
+import InteractiveMap from './interactiveMap';
 
 export default class GeoReview {
   constructor() {
